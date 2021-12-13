@@ -1,8 +1,18 @@
 /** @format */
 
 body {
-  display: block;
-  width: 0;
-  height: 0;
   background-color: beige;
+}
+
+h1 {
+  color: lightblue;
+  transition: color 0.5s ease-in;
+}
+
+.active {
+  color: tomato;
+}
+
+.sexy-font {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
