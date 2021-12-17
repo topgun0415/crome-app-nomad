@@ -1,13 +1,16 @@
 /** @format */
 
-const h1 = document.querySelector('.hello:first-child h1');
+const $loginForm = document.querySelector('.login-form');
+const $loginInput = document.querySelector('.login-form input');
 
-h1.addEventListener('click', () => {
-  const clickActive = 'active'; // .active css가 적용되도록 className에다가 active만 추가해주는 함수
+const $link = document.querySelector('a');
 
-  if (h1.classList.contains(clickActive)) {
-    h1.classList.remove(clickActive);
-  } else {
-    h1.classList.add(clickActive);
-  }
+$loginForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const userName = $loginInput.value;
+  console.log(userName);
+});
+
+$link.addEventListener('click', (e) => {
+  e.preventDefault();
 });
