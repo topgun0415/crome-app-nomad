@@ -10,7 +10,7 @@
     <title>Crome JS App</title>
   </head>
   <body>
-    <form class="login-form">
+    <form id="login-form" class="hidden">
       <input
         required
         maxlength="15"
@@ -19,10 +19,8 @@
         placeholder="What is your name?"
       />
       <button>Log In</button>
-      <br />
-      <a href="www.naver.com">Go to Naver</a>
     </form>
-
+    <h1 id="greeting" class="hidden"></h1>
     <!-- Javascript -->
     <script src="app.js"></script>
   </body>
