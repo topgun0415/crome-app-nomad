@@ -32,4 +32,5 @@ setTimeout(sayhello, 5000); 5초에 sayhello를 실행
 setTimeout(arguments, time) : 정해진 time에 한번 arguements가 실행됨
 
 padStart(String length, number add) : String only 
+삼항연산자 ? true : false 
 */
