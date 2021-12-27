@@ -10,4 +10,4 @@ const backgroundImg = document.createElement('img');
 // put address of img file
 backgroundImg.src = `img/${randomImg}`;
 // finally control Javascript to put tag into html by using appendChild (There is also prepend method)
-document.body.appendChild(backgroundImg);
+document.body.prepend(backgroundImg);
