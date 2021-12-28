@@ -1,5 +1,8 @@
 /** @format */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-.hidden {
-  display: none;
-}
+@import 'main.css';
+@import 'clock.css';
+@import 'greeting.css';
+@import 'todolist.css';
+@import 'weather.css';
