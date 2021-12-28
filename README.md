@@ -4,27 +4,26 @@
 
 Vanilla JS Fundmentals Course (2021 updated!)
 <br>
+![screenshot](./crome-app.png)
+<br>
+<br>
+<br>
+[🚗 Visit "My Crome App"](https://topgun0415.github.io/crome-app-nomad/)
+
 <br>
 `Frontend Stack`
 
 <img src="https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white" /> <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" />
 
-## 개요
+## About project
 
 First Javascript project to clone a crome website using with html&css
 
 ## Purpose of Project
 
 - To imporve Javascript & Html & Css
-- learn DOM controller & events
+- learn DOM control & events
 
-## About Project
-
-HTML, CSS, JS를 사용해서 다양한 기능들을 구현해봤습니다.
-
-![screenshot](./crome-app.png)
-</br>
-</br>
 </br>
 
 ## ⭐️개발자 코멘트⭐️
@@ -39,8 +38,6 @@ HTML, CSS, JS를 사용해서 다양한 기능들을 구현해봤습니다.
 
 ## ❓ What is a feature of a project?
 
-​
-
 - ### Main page
   - Clock
   - Saving user's name
@@ -50,31 +47,21 @@ HTML, CSS, JS를 사용해서 다양한 기능들을 구현해봤습니다.
   - Offline support
     </br>
 
-​
-
 ## ❓ What was a difficulty with project?
-
-​
 
 - ### Main page
   This was my first project using vanilla javascript so it was little bit hard to understand parts of Javascript such as
-  1. scope
-  2. exectuion context
+  1. Scope
+  2. Exectuion context
   3. Object & functions & Method
      </br>
 
-​
-
 ## ❓ Things I learn with this project
 
-​
-
-- ### 메인페이지
-
-  ​
+- ### Main page
 
   - CSS <br />
-    1. Animation
+    1. Transition
     2. using CSS to styling DOM
     3. last-child , first-child , nth-child
        ​
@@ -86,8 +73,6 @@ HTML, CSS, JS를 사용해서 다양한 기능들을 구현해봤습니다.
     5. Math.random to show random background images
     6. Using weather API
     7. use JS to control CSS
-
-​
 
 ## ❓ What were good points of this project?
 
