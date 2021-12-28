@@ -1,0 +1,93 @@
+/** @format */
+
+body,
+html {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+html {
+  background: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  background-size: cover;
+  width: 1500px;
+  height: 750px;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+input {
+  background: none;
+  appearance: none;
+  border: 0;
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+input::placeholder {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+
+.function-container {
+  position: absolute;
+  top: 50px;
+  left: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.quote-container {
+  height: 200px;
+  width: 1300px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  top: 600px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15;
+}
