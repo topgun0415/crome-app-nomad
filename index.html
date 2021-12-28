@@ -9,44 +9,54 @@
     <link rel="stylesheet" href="/css/style.css" />
     <title>Crome JS App</title>
   </head>
+
   <body>
-    <!-- Clock -->
-    <h2 id="clock">00:00</h2>
-
-    <!-- Greeting -->
-    <form id="login-form" class="hidden">
-      <input
-        required
-        maxlength="15"
-        minlength="3"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <button>Log In</button>
-    </form>
-    <h1 id="greeting" class="hidden"></h1>
-
-    <!-- To-Do-List -->
-    <form id="to-do-form">
-      <input
-        type="text"
-        placeholder="Write your To-Do-List and Press Enter"
-        required
-        maxlength="30"
-        minlength="3"
-      />
-    </form>
-    <ul id="to-do-list"></ul>
-
-    <!-- Quotes -->
-    <div id="quotes">
-      <span></span>
-      <span></span>
+    <!-- func-container -->
+    <div class="function-container">
+      <!-- Clock -->
+      <h2 id="clock">00:00</h2>
+      <!-- Greeting -->
+      <form id="login-form" class="hidden">
+        <input
+          required
+          maxlength="15"
+          minlength="3"
+          type="text"
+          placeholder="Please type your name"
+        />
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+      <!-- To-Do-List -->
+      <form id="to-do-form">
+        <input
+          type="text"
+          placeholder="To-Do-List here"
+          required
+          maxlength="30"
+          minlength="3"
+        />
+      </form>
+      <ul id="to-do-list"></ul>
     </div>
-    <div id="weather">
-      <span></span>
-      <span></span>
+
+    <!-- quotes container -->
+    <div class="quote-container">
+      <!-- Quotes -->
+      <div id="quotes">
+        <span></span>
+        <br />
+        <span></span>
+      </div>
     </div>
+    
+    <!-- weather container -->
+    <div class="weather-container">
+      <!-- weather -->
+      <div class="weather">
+        <span></span>
+        <span></span>
+      </div>
+    <div>
 
     <!-- Javascript -->
     <script src="/js/weatherAPI.js"></script>
