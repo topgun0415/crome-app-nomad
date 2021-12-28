@@ -15,10 +15,12 @@ function onGeoSuccess(location) {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      const $weather = document.querySelector('#weather span:last-child');
-      const $city = document.querySelector('#weather span:first-child');
-      $weather.innerText = `${data.weather[0].main}, Temperature : ${data.main.temp}°C`;
-      $city.innerText = data.name;
+      const $weather = document.querySelector('.weather span:last-child');
+      const $city = document.querySelector('.weather span:first-child');
+      $weather.innerText = `${data.weather[0].main}, ${Math.floor(
+        data.main.temp
+      )}°C`;
+      $city.innerText = `${data.name} : `;
     });
 }
 
