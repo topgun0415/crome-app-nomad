@@ -11,22 +11,18 @@ Vanilla JS Fundmentals Course (2021 updated!)
 
 ## 개요
 
-1. example 1
-2. example 2
-3. example 3
+First Javascript project to clone a crome website using with html&css
 
 ## Purpose of Project
 
-- purpose 1
-- purpose 2
-- purpose 3
-- purpose 4
+- To imporve Javascript & Html & Css
+- learn DOM controller & events
 
 ## About Project
 
-HTML, CSS, JS를 사용해서 메인 페이지, manu bar, FOOD, DRINK, GIFT, CARD를 클론했습니다.
+HTML, CSS, JS를 사용해서 다양한 기능들을 구현해봤습니다.
 
-<img width="702" alt="スクリーンショット 2021-07-31 22 29 48" src="https://user-images.githubusercontent.com/77221488/127741467-4a59c49b-d7f9-4813-9a8b-6a55be43f39b.png">
+![screenshot](./crome-app.png)
 </br>
 </br>
 </br>
@@ -37,38 +33,39 @@ HTML, CSS, JS를 사용해서 메인 페이지, manu bar, FOOD, DRINK, GIFT, CAR
 
 - 이름: 이성계
 - 깃허브: https://github.com/topgun0415
-- 맡은 페이지: 메인페이지, FOOD, DRINK
+- 맡은 페이지: 메인페이지
   </br>
   </br>
 
-## ❓ 어떻게 구현 했는지?
+## ❓ What is a feature of a project?
 
 ​
 
-- ### 메인페이지
-  - window.scrollY 이용하여 스크롤을 움직이면 수치를 이용
-  - 그 섹션에 수치만큼 왔을때 애니메이션 효과를 낼 수 있는 css class를 만들어 적용하였다.
-- ### drink & food 페이지
-  - 드링크와 푸드의 리스트 데이터 형식을 json(Object & array 구조)으로 만들고,
-  - AJAX fetch를 이용하여 json 데이터를 받아옴
-  - checkbox value와 json의 value가 같으면 리스트 출력하기 위해 배열의 메서드와 객체의 메서드를 이용하여 처리
+- ### Main page
+  - Clock
+  - Saving user's name
+  - To-Do-list
+  - Quotes
+  - Weather & Location API
+  - Offline support
     </br>
 
 ​
 
-## ❓ 구현하는 과정에서 어려웠던 점
+## ❓ What was a difficulty with project?
 
 ​
 
-- ### 메인페이지
-  스타벅스 메인페이지를 살펴보면 스크롤 아래로 움직일때 애니메이션 효과가 나타나는데, 이것을 어떻게 구현해야 할지 처음에 막막하였다.
-- ### drink & food 페이지
-  drink와 food 페이지에서 체크박스를 클릭하면 그 항목에 맞은 결과값을 나타내야하는데, 데이터가 object와 array라서 이것을 조건에 맞게 어떻게 출력을 해야 할지 고민이 많았고, 이부분이 클론 코딩하면서 제일 어려웠다.
-  </br>
+- ### Main page
+  This was my first project using vanilla javascript so it was little bit hard to understand parts of Javascript such as
+  1. scope
+  2. exectuion context
+  3. Object & functions & Method
+     </br>
 
 ​
 
-## ❓ 이번 프로젝트를 통해 새로 배운 점
+## ❓ Things I learn with this project
 
 ​
 
@@ -77,58 +74,25 @@ HTML, CSS, JS를 사용해서 메인 페이지, manu bar, FOOD, DRINK, GIFT, CAR
   ​
 
   - CSS <br />
-    keyframes
-    ​
+    1. Animation
+    2. using CSS to styling DOM
+    3. last-child , first-child , nth-child
+       ​
   - JS <br />
-    scroll eventlistener, windows.scrollY
-
-- ### drink & food 페이지
-
-  - CSS <br />
-    display의 grid <br />
-
-  - JS <br />
-    Array와 Object 구조 및 두 자료형을 처리하기 위한 메서드 <br />
-    AJAX fetch <br />
-    event.target <br />
-    구조분해할당
-    </br>
+    1. DOM controller
+    2. Date constructor & setInterval & setTimeout
+    3. LocalStroage Database & classlist & innerText & innerHTML
+    4. QuerySelector, Math methods, callback function
+    5. Math.random to show random background images
+    6. Using weather API
+    7. use JS to control CSS
 
 ​
 
-## ❓ 내가 구현한 것 중에서 가장 잘했다고 생각하는 점(어필 포인트)
+## ❓ What were good points of this project?
 
 </br>
-
-​
-처음에 체크박스를 클릭하면 리스트를 나타내기 위해 html과 css로만 만들려고 했지만, 자바스크립트도 같이 배우고 있었기 때문에
-배운것을 토대로 프로젝트에 적용해 보았고, 모르는 부분은 팀원들과 커뮤니케이션을 하거나 구글링을 통하여 이러한 문제를 해결하였다.
+프로젝트를 진행하면서, 중간에 수업을 멈추고 최대한 어떠 기능을 구현할건지에 대해서 간략하게 설명을 듣고 혼자서 만들려고 노력했습니다. 물론 막히는 부분도 많았지만 지금까지 나름 자바스크립트에 대해서 공부한 것도 많았기 떄문에 어느정도 생각하고 구글링을 하면 어느정도 비슷하게 구현할 수 있었던것 같습니다.
 </br>
 </br>
 </br>
-
----
-
-</br>
-
-- 이름: 카에
-- 깃허브: https://github.com/kaehehehe
-- 맡은 페이지: menu bar, GIFT
-  </br>
-  </br>
-
-### ❓구현하는 과정에서 어려웠던 점
-
-스타벅스 홈페이지에서 사용되는 checkbox와 최대한 비슷하게 구현하기 위해 브라우저에서 제공하는 checkbox를 쓰지 않고 div태그로 박스를 만들어서 css에서 가상 클래스 :focus를 써서 클릭했을 때 체크 마크가 나오게끔 구현했다.
-
-<img width="1055" alt="スクリーンショット 2021-08-09 13 08 47" src="https://user-images.githubusercontent.com/77221488/128659700-67a8d749-b483-4c0a-b04c-d793aaca12ab.png">
-
-### ❓이번 프로젝트를 통해 새로 배운 점
-
-이번 프로젝트를 통해 DOM을 조작하는 법, 그리고 CSS에 대한 이해도가 깊어졌다.
-
-굳이 JavaScript를 쓰지 않아도 CSS만 써서 구현할 수 있는 것들이 생각보다 많다는 것을 알았다.
-
-### ❓내가 구현한 것 중에서 가장 잘했다고 생각하는 점(어필 포인트)
-
-반응형까지 고려해서 구현한 점.
